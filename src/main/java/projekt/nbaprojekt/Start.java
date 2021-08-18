@@ -10,6 +10,8 @@ package projekt.nbaprojekt;
  * @author valagic
  */
 public class Start {
+    
+    
     public static void main(String[] args) {
         System.out.println("test");
     }
