@@ -63,15 +63,14 @@ public class Pocetak {
         System.out.println("The league's playoff tournament extends into June. As of 2020, ");
         System.out.println("NBA players are the world's best paid athletes by average annual salary per player.");
         System.out.println("");
-        if(Ulaz.daIliNe("Ako zelite saznati vise o programu upisite da u suprotnom ne", "Nisi upisao da")) {
+        if(Ulaz.daIliNe("Ako zelite saznati vise o programu upisite da u suprotnom ne", "Nisi upisao da ili ne")) {
            System.out.println("");
            pocetniEkran();
         }else {
             System.out.println("");
-            pocetniEkran();
-        }
-            
-            
+            System.out.println("Hvala sto se koristili aplikaciju");
+            System.exit(0);
+        }     
     }
 
     private void popisEkipa() {
@@ -93,12 +92,13 @@ public class Pocetak {
         System.out.println("Svaka divizija ima po nekoliko ekipa");
         System.out.println("Ako te zanima u kojoj se diviziji nalazi koja ekipa klikni na ovaj link");
         System.out.println("");
-        if(Ulaz.daIliNe("Ako zelite saznati vise o Ligi upisite da, u suprotnom vas vracamo na pocetni ekran", "Niste upisali da")) {
+        if(Ulaz.daIliNe("Ako zelite saznati vise o Ligi upisite da, u suprotnom vas vracamo na pocetni ekran", "Niste upisali da ili ne")) {
             System.out.println("");
             pocetniEkran();
         }else {
             System.out.println("");
-            pocetniEkran();
+            System.out.println("Hvala sto se koristili aplikaciju");
+            System.exit(0);
         }
     }
     

@@ -13,6 +13,6 @@ public class Start {
     
     
     public static void main(String[] args) {
-       new Pocetak() ;
+       new Prozor().setVisible(true);
     }
 }

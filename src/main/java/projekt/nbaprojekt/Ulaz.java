@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 package projekt.nbaprojekt;
-import java.util.Scanner;
-import java.util.*;
 import javax.swing.JOptionPane;
 
 
