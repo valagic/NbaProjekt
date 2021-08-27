@@ -169,7 +169,7 @@ public class Prozor extends javax.swing.JFrame {
     }//GEN-LAST:event_btnUtakmicaActionPerformed
 
     private void btnIzlazActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIzlazActionPerformed
-        dispose();
+        dispose(); // umjesto system.exit(0); ovo je izlaz iz aplikacije
     }//GEN-LAST:event_btnIzlazActionPerformed
 
     private void osnovnoPostavke() {
