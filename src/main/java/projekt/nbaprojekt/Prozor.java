@@ -61,7 +61,7 @@ public class Prozor extends javax.swing.JFrame {
             }
         });
 
-        btnIgrac.setText("Popis igraca u ligi");
+        btnIgrac.setText("Popis igraca u ekipi");
         btnIgrac.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnIgracActionPerformed(evt);
@@ -169,7 +169,7 @@ public class Prozor extends javax.swing.JFrame {
     }//GEN-LAST:event_btnUtakmicaActionPerformed
 
     private void btnIzlazActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIzlazActionPerformed
-        // TODO add your handling code here:
+        dispose();
     }//GEN-LAST:event_btnIzlazActionPerformed
 
     private void osnovnoPostavke() {
