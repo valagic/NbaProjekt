@@ -39,6 +39,16 @@
                           <Component id="txtInfo" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="btnLigaInformacije" max="32767" attributes="0"/>
+                          <Component id="btnEkipa" alignment="1" max="32767" attributes="0"/>
+                          <Component id="btnIgrac" alignment="1" max="32767" attributes="0"/>
+                          <Component id="btnUtakmica" alignment="1" pref="245" max="32767" attributes="0"/>
+                          <Component id="btnIzlaz" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
               <EmptySpace pref="94" max="32767" attributes="0"/>
           </Group>
@@ -53,7 +63,17 @@
               <Component id="txtInfo" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="txtInfo2" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="318" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnLigaInformacije" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnEkipa" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnIgrac" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="btnUtakmica" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnIzlaz" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="113" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -73,6 +93,46 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="neku od opcija."/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLigaInformacije">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informacije o ligi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLigaInformacijeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnEkipa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Popis ekipa u ligi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEkipaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnIgrac">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Popis igraca u ligi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIgracActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnUtakmica">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Izlistanje svih utakmica prosle sezone"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUtakmicaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnIzlaz">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Izlaz iz aplikacije"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIzlazActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
